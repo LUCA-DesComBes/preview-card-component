@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    background-color: #F4D04E;
+    font-family: "Figtree", sans-serif;
+}
+article {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: #111111 1px solid;
+    border-radius: 20px;
+    -webkit-box-shadow: 8px 8px 0px 0px #000000; 
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+img[alt="blogimage"] {
+    margin-bottom: 24px;
+}
+button {
+    background-color: #F4D04E;
+    width: 5.125rem;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-weight: 800;
+}
+.published, h1 {
+    margin-bottom: 12px;
+}
+h1 {
+    cursor: pointer;
+    font-weight: 800;
+}
+h1:active {
+    color: #F4D04E;
+}
+.gray {
+    width: 21rem;
+    margin-bottom: 24px;
+    color: #7F7F7F;
+}
+.f-r {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+h2 {
+    font-weight: 800;
+    font-size: 14px;
+}
